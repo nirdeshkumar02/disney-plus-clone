@@ -88,7 +88,7 @@ function Header() {
           </NavMenu>
           <UserImg
             onClick={signOut}
-            src="https://www.loudegg.com/wp-content/uploads/2020/10/Mickey-Mouse.jpg"
+            src={userPhoto}
           />
         </>
       )}
